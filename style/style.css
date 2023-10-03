@@ -32,15 +32,27 @@ header {
 }
 
 .container {
-  width: 80%;
+  width: 70%;
+  height: 50px;
   margin: 0 auto;
-  background-color: red;
+  background-color: white;
+}
+
+.add-task, .add-section {
+  padding: 5px;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 15%;
+  margin: 15px 5px;
 }
 
 .add-task {
-  background-color: blueviolet;
+  background-color: #47adf1;
+  color: white;
 }
 
 .add-section {
-  background-color: lightcoral;
+  background-color: white;
+  color: #ced2d7;
+  border: #ced2d7 solid 1px;
 }
