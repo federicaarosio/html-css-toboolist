@@ -86,6 +86,11 @@ hr {
   display: inline-block;
 }
 
+.single-list-task {
+  line-height: 16px;
+  margin: 15px 0px;
+}
+
 .icon-check {
   color: green;
   border: green solid 1px;
