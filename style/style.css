@@ -13,10 +13,21 @@ header {
   height: 70px;
 }
 
+.text-font {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  width: 70%;
+  margin: 50px auto;
+  background-color: white;
+}
+
+/* Logo e titolo Toboolist */
 .main-logo {
   height: 50px;
   display: inline-block;
-  margin: 10px;
+  margin: 15px;
 }
 
 .logo {
@@ -32,16 +43,8 @@ header {
   display: inline-block;
 }
 
-.text-font {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
 
-.container {
-  width: 70%;
-  margin: 50px auto;
-  background-color: white;
-}
-
+/* Bottoni Add Task e Add Section */
 .main-header {
   height: 50px;
   border-bottom: 3px solid #f6f8f9;
@@ -68,6 +71,8 @@ header {
   border: #ced2d7 solid 1px;
 }
 
+
+/* Tak List */
 .list-wrapper {
   margin-bottom: 20px;
 }
@@ -92,6 +97,8 @@ header {
   margin: 15px 0px;
 }
 
+
+/* Icon check e cross */
 .icon {
   height: 20px;
   width: 20px;
@@ -110,6 +117,9 @@ header {
   color: red;
   border-color: red;
 }
+
+
+/* Bottoni Editorial, Q1 Goals, Recruiting, Mobile, Website, Sales */
 
 .colored-button {
   color: white;
