@@ -51,7 +51,7 @@ hr {
   padding: 5px;
   font-size: 12px;
   font-weight: 700;
-  border-radius: 15%;
+  border-radius: 5px;
   margin-top: 15px;
   display: inline-block;
 }
@@ -115,10 +115,7 @@ hr {
   font-weight: 700;
   padding: 5px 10px;
   height: 20px;
-  border-radius: 25%;
-
-
-  background-color: red;
+  border-radius: 15px;
 }
 
 .button-blue {
@@ -127,4 +124,8 @@ hr {
 
 .button-purple {
   background-color: #9c72e4;
+}
+
+.button-green {
+  background-color: #64c0a9;
 }
