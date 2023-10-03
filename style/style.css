@@ -66,6 +66,10 @@ hr {
   border: #ced2d7 solid 1px;
 }
 
+.list-wrapper {
+  margin-bottom: 20px;
+}
+
 .drop-down-arrow {
   height: 15px;
 }
@@ -93,7 +97,14 @@ hr {
   color: white;
   font-size: 10px;
   font-weight: 700;
+  padding: 5px 10px;
 
 
   background-color: red;
+}
+
+.button-blue {
+  background-color: #45abea;
+  height: 20px;
+  border-radius: 25%;
 }
