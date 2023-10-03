@@ -12,6 +12,35 @@ header {
   background-color: white;
 }
 
+.main-logo {
+  height: 140px;
+}
+
+.logo {
+  margin-left: 20px;
+  vertical-align: sub;
+}
+
+.title-toboolist {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 140px;
+}
+
 .text-font {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  background-color: red;
+}
+
+.add-task {
+  background-color: blueviolet;
+}
+
+.add-section {
+  background-color: lightcoral;
 }
