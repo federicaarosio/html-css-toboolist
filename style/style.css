@@ -10,11 +10,13 @@ body {
 
 header {
   background-color: white;
-  height: 100px;
+  height: 70px;
 }
 
 .main-logo {
   height: 50px;
+  display: inline-block;
+  margin: 10px;
 }
 
 .logo {
