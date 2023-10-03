@@ -12,19 +12,24 @@ header {
   background-color: white;
 }
 
+hr {
+  color: #ced2d7;
+}
+
 .main-logo {
-  height: 140px;
+  height: 100px;
 }
 
 .logo {
   margin-left: 20px;
-  vertical-align: sub;
+  vertical-align: middle;
 }
 
 .title-toboolist {
   font-size: 2.5rem;
   font-weight: 700;
-  line-height: 140px;
+  line-height: 100px;
+  display: inline-block;
 }
 
 .text-font {
@@ -33,9 +38,13 @@ header {
 
 .container {
   width: 70%;
-  height: 50px;
   margin: 0 auto;
   background-color: white;
+}
+
+.main-header {
+  height: 50px;
+  border: red solid 1px; 
 }
 
 .add-task, .add-section {
@@ -43,7 +52,7 @@ header {
   font-size: 12px;
   font-weight: 700;
   border-radius: 15%;
-  margin: 15px 5px;
+  margin: 5px;
 }
 
 .add-task {
@@ -55,4 +64,31 @@ header {
   background-color: white;
   color: #ced2d7;
   border: #ced2d7 solid 1px;
+}
+
+.task-list {
+    margin-left: 70px;
+}
+
+.task-title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.icon-check {
+  color: green;
+  border: green solid 1px;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.colored-button {
+  color: white;
+  font-size: 10px;
+  font-weight: 700;
+
+
+  background-color: red;
 }
