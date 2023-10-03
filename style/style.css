@@ -12,10 +12,6 @@ header {
   background-color: white;
 }
 
-hr {
-  color: #ced2d7;
-}
-
 .main-logo {
   height: 100px;
 }
@@ -44,7 +40,7 @@ hr {
 
 .main-header {
   height: 50px;
-  /* border: red solid 1px;  */
+  border-bottom: 3px solid #f6f8f9;
 }
 
 .add-task, .add-section {
@@ -115,7 +111,7 @@ hr {
   font-weight: 700;
   padding: 5px 10px;
   height: 20px;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 
 .button-blue {
@@ -128,4 +124,16 @@ hr {
 
 .button-green {
   background-color: #64c0a9;
+}
+
+.button-orange {
+  background-color: #f29e33;
+}
+
+.button-pink {
+  background-color: #d863a1;
+}
+
+.button-lightgreen {
+  background-color: #b0c926;
 }
