@@ -46,7 +46,7 @@ header {
 }
 
 .add-task, .add-section {
-  padding: 5px;
+  padding: 5px 10px;
   font-size: 12px;
   font-weight: 700;
   border-radius: 5px;
@@ -76,6 +76,7 @@ header {
 
 .task-list {
     margin-left: 70px;
+    padding: 40px 0px;
 }
 
 .task-title {
