@@ -6,15 +6,12 @@
 
 body {
   background-color: #f6f8f9;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header {
   background-color: white;
   height: 70px;
-}
-
-.text-font {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .container {
